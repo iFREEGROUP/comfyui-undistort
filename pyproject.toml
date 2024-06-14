@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-undistort"
+description = "Node:Load Checkerboard Images for Calibrate Camera, Matrix and distortion coefficient to text, Undistort"
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["opencv-python"]
+
+[project.urls]
+Repository = "https://github.com/iFREEGROUP/comfyui-undistort"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "comfyui-undistort"
+Icon = ""
